@@ -1,27 +1,39 @@
 package org.phxrhk.shiplog;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
-
 import java.awt.*;
+import javax.swing.*;
 
-/**
- *    RHK 01/26/21
- */
 
-public class ShipLog {
+import org.apache.log4j.PropertyConfigurator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-    static Logger log = Logger.getLogger(ShipLog.class);
+public class ShipLog extends JFrame{
+
+    static Logger logger = LogManager.getLogger(ShipLog.class);
+    private WindowEventHandler window_event_handler;
+
+    public ShipLog() throws HeadlessException {
+        logger.info(ShipLog.class + " constructor called");
+        this.setTitle("Build Java Applications - Ship Log");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window_event_handler = new WindowEventHandler();
+        window_event_handler.setApp(this);
+        this.addWindowListener(window_event_handler);
+        setBounds(100,100,450,300);
+        logger.info(ShipLog.class + "constructor finished");
+    }
 
     public static void main(String[] args) {
-
-        PropertyConfigurator.configure("log4j2.xml");
-        log.info("***** Build An Application - Ship Log started *****");
-
-        EventQueue.invokeLater(new Runnable() {     // set up for thread for Swing display
+        PropertyConfigurator.configure("log4j.properties");
+        logger.info("***** Build An Application - Ship Log started");
+        EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
-                System.out.println("\nShip Log Applications");
+
+                ShipLog app = new ShipLog();
+                app.setVisible(true);
+
             }
         });
     }
