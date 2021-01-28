@@ -1,5 +1,10 @@
-[INFO ] 2021-01-27 16:57:47.593 [main] shiplog.ShipLog - ***** Build An Application - Ship Log started
-[INFO ] 2021-01-27 16:57:47.844 [AWT-EventQueue-0] shiplog.ShipLog - class org.phxrhk.shiplog.ShipLog constructor called
-[INFO ] 2021-01-27 16:57:47.846 [AWT-EventQueue-0] shiplog.ShipLog - class org.phxrhk.shiplog.ShipLogconstructor finished
-[INFO ] 2021-01-27 16:57:53.105 [AWT-EventQueue-0] shiplog.WindowEventHandler - window closing
-[INFO ] 2021-01-27 16:57:53.106 [AWT-EventQueue-0] shiplog.WindowEventHandler - dispose of ShipLog class instance
+[INFO ] 2021-01-27 19:28:55.647 [main] shiplog.ShipLog - ***** Build An Application - Ship Log started
+[INFO ] 2021-01-27 19:28:58.973 [AWT-EventQueue-0] shiplog.ShipLog - class org.phxrhk.shiplog.ShipLog constructor called
+[INFO ] 2021-01-27 19:28:58.975 [AWT-EventQueue-0] shiplog.ShipLog - class org.phxrhk.shiplog.ShipLogconstructor finished
+[INFO ] 2021-01-27 19:29:08.288 [AWT-EventQueue-0] shiplog.WindowEventHandler - window closing
+[INFO ] 2021-01-27 19:29:08.289 [AWT-EventQueue-0] shiplog.WindowEventHandler - dispose of ShipLog class instance
+[INFO ] 2021-01-27 19:29:12.309 [main] shiplog.ShipLog - ***** Build An Application - Ship Log started
+[INFO ] 2021-01-27 19:29:15.624 [AWT-EventQueue-0] shiplog.ShipLog - class org.phxrhk.shiplog.ShipLog constructor called
+[INFO ] 2021-01-27 19:29:15.627 [AWT-EventQueue-0] shiplog.ShipLog - class org.phxrhk.shiplog.ShipLogconstructor finished
+[INFO ] 2021-01-27 19:29:18.527 [AWT-EventQueue-0] shiplog.WindowEventHandler - window closing
+[INFO ] 2021-01-27 19:29:18.528 [AWT-EventQueue-0] shiplog.WindowEventHandler - dispose of ShipLog class instance

@@ -1,12 +1,13 @@
 package org.phxrhk.shiplog;
 
-import java.awt.*;
-import javax.swing.*;
-
-
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.phxrhk.shiplog.utils.Splashing;
+
+import javax.swing.*;
+import java.awt.*;
+
 
 public class ShipLog extends JFrame{
 
@@ -27,11 +28,29 @@ public class ShipLog extends JFrame{
     public static void main(String[] args) {
         PropertyConfigurator.configure("log4j.properties");
         logger.info("***** Build An Application - Ship Log started");
+
         EventQueue.invokeLater(new Runnable() {
-            @Override
+
             public void run() {
 
+                Splashing.splashInit();
+                Splashing.pause(1000);
+
+                Splashing.splashText("Creating application");
+                Splashing.splashProgress(33);
+                Splashing.pause(1000);
+
+                Splashing.splashText("Creating application");
+                Splashing.splashProgress(66);
+                Splashing.pause(1000);
+
                 ShipLog app = new ShipLog();
+
+                Splashing.splashText("Loading data file");
+                Splashing.splashProgress(99);
+                Splashing.pause(1000);
+
+
                 app.setVisible(true);
 
             }

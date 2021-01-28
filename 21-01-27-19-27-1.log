@@ -1,0 +1,5 @@
+[INFO ] 2021-01-27 19:24:50.680 [main] shiplog.ShipLog - ***** Build An Application - Ship Log started
+[INFO ] 2021-01-27 19:24:54.023 [AWT-EventQueue-0] shiplog.ShipLog - class org.phxrhk.shiplog.ShipLog constructor called
+[INFO ] 2021-01-27 19:24:54.025 [AWT-EventQueue-0] shiplog.ShipLog - class org.phxrhk.shiplog.ShipLogconstructor finished
+[INFO ] 2021-01-27 19:25:01.860 [AWT-EventQueue-0] shiplog.WindowEventHandler - window closing
+[INFO ] 2021-01-27 19:25:01.861 [AWT-EventQueue-0] shiplog.WindowEventHandler - dispose of ShipLog class instance
